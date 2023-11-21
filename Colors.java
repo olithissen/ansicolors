@@ -251,7 +251,7 @@ public class Colors {
      * @param color A color value between 0 and 16777215
      * @return an integer array containing the RGB values of the color (in range 0-255)
      */
-    public static int[] intToRgb(long color) {
+    public static int[] intToRgb(int color) {
         if (color < 0 || color > 16777215) {
             throw new IllegalArgumentException("Color must be >= 0 and <= 16777215");
         }
