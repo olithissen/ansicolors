@@ -25,13 +25,11 @@ This sets the color to an indexed color as described in [256 Colors Cheat Sheet]
 
 The usual RGB color components used everywhere where monitors support colors.
 
-### RGB value (parameters: long)
-`Colors.fg(16763904L)`
+### RGB value (parameters: int)
+`Colors.fg(16763904)`
 
 RGB components multiplied give you a 24-bit color value.
 This is somewhat handy if your color value source is something like `java.awt.colors` or anything else that justreturns 24-bit color values.
-24 bits don't require `long`.
-This is purely for overloading the `fg()` method.
 
 ### Hex color (parameters: String)
 `Colors.fg("#ffcc00")`
