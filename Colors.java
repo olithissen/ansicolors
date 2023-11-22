@@ -275,7 +275,7 @@ public class Colors {
 
         int red = Integer.parseInt(hexColor.substring(1, 3), 16);
         int green = Integer.parseInt(hexColor.substring(3, 5), 16);
-        int blue = Integer.parseInt(hexColor.substring(5, 6), 16);
+        int blue = Integer.parseInt(hexColor.substring(5, 7), 16);
         return new int[]{red, green, blue};
     }
 
